@@ -2,9 +2,7 @@ public class Solution {
         
 	//check is the number is even number
 	public boolean isEven(int number) {
-
 		boolean result = true;
-
 		if (number % 2 == 0) {
 			result = true;
 		} else {
@@ -29,10 +27,8 @@ public class Solution {
 		for (int i = 0; i < l; i++) {
 			String result = "";
 			int c = a[i];
-			
 			//case 0: c is 0
-			if(c == 0){
-				
+			if(c == 0){	
 				result = Integer.toString(0);
 			}
 			
@@ -47,7 +43,6 @@ public class Solution {
 
 			// case 2: c is odd number
 			}else {
-
 				//case 2.1
 				if (isDivisiblebyThree(c)) {
 					result = "three";
@@ -58,7 +53,6 @@ public class Solution {
 			System.out.println(result);
 
 		}
-
 	}
-
 }
+
