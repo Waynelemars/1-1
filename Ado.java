@@ -42,7 +42,7 @@ public class Solution {
 				}
 
 			// case 2: c is odd number
-			}else {
+			} else {
 				//case 2.1
 				if (isDivisiblebyThree(c)) {
 					result = "three";
