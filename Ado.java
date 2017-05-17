@@ -1,5 +1,6 @@
 public class Solution {
-
+        
+	//check is the number is even number
 	public boolean isEven(int number) {
 
 		boolean result = true;
@@ -13,7 +14,7 @@ public class Solution {
 	}
 
 	
-	
+	//check if the number can be divided by three
 	public boolean isDivisiblebyThree(int number) {
 		boolean result = true;
 		if (number % 3 == 0) {
@@ -22,7 +23,7 @@ public class Solution {
 			return false;
 		}
 	}
-
+        //Read an array of integers and print out the result based on the conditions. 
 	public void detectNumber(int[] a) {
 		int l = a.length;
 		for (int i = 0; i < l; i++) {
